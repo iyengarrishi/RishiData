@@ -4,6 +4,12 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>New Web Project</title>
+		<style>
+			.testClass{
+				color:red;
+				
+			}
+		</style>
 	</head>
 	<body>
 
@@ -12,6 +18,28 @@
 		<div> Making Them Webpages </div>
 	
 	<div> Still Making Them Webpages </div>
+	<script>
+		var seaHawks = "We won the Superbowl";
+		console.log(seaHawks);
+		var someArray = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
+		console.log(someArray);
+		var someCat = {"name":"Lulu", "color":"gray", "attitude":"unfriendly", "age":9, "isFemale":true, "kittens":["bubbles", "bobbles", "meanie"], "friends":{"dog":"Mike", "mouse":"Squeaky"}};
+	
+		/*
+		 This type of comment is a multi-line comment, that needs to be closed. '//' is a single-line comment that doesn't need to be closed. Also, the attributes of the kittens are their names. Capisce?
+		*/
+		console.log(someCat);
+		console.log(someCat.isFemale);
+	
+	seaHawks = "We owned the Superbowl";
+	console.log(seaHawks);
+	someCat.name = "fastCat";
+	console.log(someCat);
+	someCat.kittens[0] = "teenie";
+	console.log(someCat);
+	someCat.friends.dog = "Bob";
+	</script>
+	
 	
 	</body>
 </html>
